@@ -2,7 +2,7 @@
 Modified VCOPN model for COMP4471 Project
 
 ## Highlight in the modification for VCOPN class
-Go to the model and click the vcopn.py file. Inside the file, there should be two classes, named VCOPN and VCOPN_attention respectively.   
+Go to the **models** folder and click the **vcopn.py** file. Inside the file, there should be two classes, named VCOPN and VCOPN_attention respectively.   
 
 VCOPN is the original class from the paper and VCOPN_attention is the modified one.
   
@@ -38,7 +38,7 @@ The modified part utilized an attention encoder to return a (batch_size, tuple_l
 
 ## Initialization of attention_vcopn model object
 
-You may go to the Attention_VCOPN.ipynb under the model folder to check the example of how the model object runs.
+You may go to the **Attention_VCOPN.ipynb** under the model folder to check the example of how the model object runs.
 
 The initialization code is:
 
